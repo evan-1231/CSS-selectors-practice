@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Club</title>
+  <!-- STEP 1: Link your external stylesheet on the line below -->
+   <link href="style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-    
+
+  <header id="top-banner">
+    <h1 id="club-title">Coding Club</h1>
+    <p class="tagline">Build. Debug. Create. Repeat.</p>
+  </header>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#join">Join Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2 class="section-heading">About Us</h2>
+      <p class="intro">
+        Coding Club meets every Thursday after school in Room 204.
+        No experience is needed. Just bring your curiosity!
+      </p>
+      <p>
+        We learn HTML, CSS, and JavaScript by building real websites,
+        games, and apps together.
+      </p>
+      <p class="intro fun-fact">
+        Fun fact: our club has 32 members and counting!
+      </p>
+    </section>
+
+    <section id="events">
+      <h2 class="section-heading">Upcoming Events</h2>
+      <ol class="event-list">
+        <li class="event">CSS Color Challenge - December 3</li>
+        <li class="event highlight">Hack Night - December 10</li>
+        <li class="event">Code and Cocoa Social - December 17</li>
+        <li class="event">Website Showcase - January 7</li>
+      </ol>
+      <p class="note">All events start at 2:45 PM.</p>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-heading">Student Projects</h2>
+
+      <div class="card">
+        <h3 class="card-title">Weather Wizard</h3>
+        <p>A web page that shows the forecast with fun icons.</p>
+        <p class="author">Made by Maya and Leo</p>
+      </div>
+
+      <div class="card featured">
+        <h3 class="card-title">Pixel Pet</h3>
+        <p>A virtual pet you feed, play with, and dress up.</p>
+        <p class="author">Made by Jordan</p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">Quiz Master</h3>
+        <p>A trivia game that keeps score and times each round.</p>
+        <p class="author">Made by Priya and Sam</p>
+      </div>
+    </section>
+
+    <section id="join">
+      <h2 class="section-heading">Join Us</h2>
+      <p>
+        Ready to start coding? Talk to your teacher or stop by
+        Room 204 on any Thursday.
+      </p>
+      <p class="note special">Snacks are provided at every meeting!</p>
+      <button class="button">Sign Me Up</button>
+    </section>
+
+  </main>
+
+  <aside class="tip-box">
+    <h3>CSS Tip of the Week</h3>
+    <p>Every declaration ends with a semicolon;</p>
+    <p id="tip-example">Example: color: purple;</p>
+  </aside>
+
+  <footer>
+    <p class="fine-print">Coding Club &copy; 2026</p>
+    <p class="fine-print">Questions? Visit Room 204.</p>
+  </footer>
+
 </body>
 </html>
