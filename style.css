@@ -12,3 +12,65 @@ h1 {
 h2 {
     color: teal;
 }
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.tagline {
+    color: navy;
+    text-align: center;
+}
+
+#top-banner {
+    background-color: gold;
+}
+
+.card {
+    background-color: white;
+}
+
+#join {
+    background-color: #e0f7fa;
+}
+
+.note {
+    font-weight: bold;
+}
+
+.fine-print {
+    opacity: 0.6;
+}
+
+.button {
+    background-color:orange;
+    font-size:18px;
+    font-weight:bold;
+}
+
+h1,h2,h3 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+li.highlight {
+    color: crimson;
+    font-weight: bold;
+}
+
+div.card.featured {
+    background-color: lightpink;
+}
+
+.menu {
+    background-color: navy;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+}
+
+.note.special {
+    color: green;
+}
